@@ -68,7 +68,7 @@ index = build_auto_merging_index(
     [document],
     #llm=OpenAI(model="gpt-3.5-turbo", temperature=0.1,api_key=key),
     #llm = GPT4All("mistral-7b-openorca.gguf2.Q4_0.gguf"),
-    llm = GPT4All(model=r'C:\Users\91941\.cache\gpt4all\orca-mini-3b-gguf2-q4_0.gguf'), #Replace this path with your model path
+    llm = GPT4All(model=r'C:\Users\91941\.cache\gpt4all\mistral-7b-openorca.gguf2.Q4_0.gguf'), #Replace this path with your model path
     save_dir="./auto_merge_index",
 )
 
